@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="H2 -HR_SYS" uuid="7fd4c506-38eb-40a1-83ca-894cd50b3967">
+    <database-info product="H2" version="1.4.187 (2015-04-10)" jdbc-version="4.0" driver-name="H2 JDBC Driver" driver-version="1.4.187 (2015-04-10)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <schema name="PUBLIC" catalog="HR_SYS"/>
+    <table name="EMPLOYEE_COMMENT" schema="PUBLIC" catalog="HR_SYS" type="TABLE">
+      <column name="ID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfMDM1QjU0NEZfRjc1Ml80OUMxX0I0ODlfM0MxQzAxQjNGMDRGKQ==" autoIncrement="true"/>
+      <column name="COMMENT" sqlType="VARCHAR" precision="256" scale="0" nullable="false" jdbcType="12"/>
+      <column name="EMPLOYEE_ID" sqlType="BIGINT" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <primary-key name="CONSTRAINT_1" columns="ID"/>
+    </table>
+    <table name="POTENTIAL_EMPLOYEE" schema="PUBLIC" catalog="HR_SYS" type="TABLE">
+      <column name="ID" sqlType="INTEGER" precision="10" scale="0" nullable="false" jdbcType="4" def="KE5FWFQgVkFMVUUgRk9SIFBVQkxJQy5TWVNURU1fU0VRVUVOQ0VfMkI3NUY3NTVfMTVEQV80NTUwX0E0NUZfODExNkJEOERFQkM3KQ==" autoIncrement="true"/>
+      <column name="NAME" sqlType="VARCHAR" precision="256" scale="0" nullable="false" jdbcType="12"/>
+      <column name="EXTERNAL_ID" sqlType="VARCHAR" precision="256" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="CONSTRAINT_A" columns="ID"/>
+    </table>
+  </data-source>
+</component>
